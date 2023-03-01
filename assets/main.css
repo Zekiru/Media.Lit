@@ -1,7 +1,20 @@
-.main_header {
-    margin-top: 10rem;
+section {
+    margin-bottom: 10rem;
 }
 
-.main_header p, .main_header button {
-    margin-top: 5rem;
+.text-align-right {
+    text-align: right;
+}
+
+.first-content {
+    margin-top: 22rem;
+}
+
+.header-section {
+    padding: 0 5% 0 5%;
+    margin-bottom: 28rem;
+}
+
+.header-section p, .header-section button {
+    margin-top: 4rem;
 }
