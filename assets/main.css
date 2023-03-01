@@ -1,3 +1,8 @@
+body {
+    background-color: #202122;
+    color: #e8f0f8;
+}
+
 section {
     margin-bottom: 10rem;
 }
@@ -7,14 +12,19 @@ section {
 }
 
 .first-content {
-    margin-top: 22rem;
+    margin-top: 20rem;
 }
 
 .header-section {
-    padding: 0 5% 0 5%;
-    margin-bottom: 28rem;
+    padding: 0% 5% 0% 5%;
+    margin-bottom: 30rem;
 }
 
 .header-section p, .header-section button {
     margin-top: 4rem;
+}
+
+footer {
+    background-color: #e8f0f8;
+    color: #202122;
 }
