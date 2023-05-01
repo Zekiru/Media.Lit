@@ -1,0 +1,22 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+.card {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.card:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+a {
+  color: rgb(23,64,105);
+}
+
+.card {
+  color: #354a4f;
+}
+
