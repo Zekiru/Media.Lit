@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overflow-x: hidden;">
 
 <head>
     <meta charset="utf-8">
@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="index.html">Brand</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+<body style="background: #191129;">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="z-index: 100;width: 100vw;">
+        <div class="container"><a class="navbar-brand" href="index.html">Media.Lit</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -24,53 +25,28 @@
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background-image: url('assets/img/home-bg.jpg');">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-lg-8 mx-auto position-relative">
-                    <div class="site-heading">
-                        <h1>Clean Blog</h1><span class="subheading">A Blog Theme by Start Bootstrap</span>
-                    </div>
+    <header class="masthead" style="background: #191129;height: 100vh;">
+        <div class="overlay" style="background: #191129;height: 100%;"></div>
+        <div class="container" style="height: 100%;">
+            <div class="row" style="margin: auto;height: 100%;">
+                <div class="col-md-10 col-lg-8 mx-auto position-relative" style="height: 100%;padding: 0;">
+                    <div class="text-center d-flex d-sm-flex d-md-flex d-lg-flex d-xxl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center align-items-lg-center justify-content-xxl-center align-items-xxl-center rubberBand animated site-heading" style="margin-right: auto;margin-left: auto;height: 100%;padding: 0;"><img class="img-fluid" data-bss-hover-animate="jello" src="assets/img/lv_0_20230429021502%201.jpg" width="864" height="430" style="filter: blur(0px);width: 100%;"></div>
                 </div>
             </div>
         </div>
     </header>
-    <div class="container">
-        <div class="row">
+    <div class="container d-xxl-flex justify-content-xxl-center align-items-xxl-center" style="margin-top: 14vh;height: auto;">
+        <div class="row d-xxl-flex justify-content-xxl-center align-items-xxl-center">
             <div class="col-md-10 col-lg-8">
-                <div class="post-preview"><a href="#">
+                <div class="post-preview"><a href="#" style="color: #fff;">
                         <h2 class="post-title">Man must explore, and this is exploration at its greatest</h2>
                         <h3 class="post-subtitle">Problems look mighty small from 150 miles up</h3>
-                    </a>
-                    <p class="post-meta">Posted by&nbsp;<a href="#">Start Bootstrap on September 24, 2018</a></p>
-                </div>
+                    </a></div>
                 <hr>
-                <div class="post-preview"><a href="#">
-                        <h2 class="post-title">I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</h2>
-                    </a>
-                    <p class="post-meta">Posted by&nbsp;<a href="#">Start Bootstrap on September 18, 2018</a></p>
-                </div>
-                <hr>
-                <div class="post-preview"><a href="#">
-                        <h2 class="post-title"> Science has not yet mastered prophecy</h2>
-                        <h3 class="post-subtitle">We predict too much for the next year and yet far too little for the next ten.</h3>
-                    </a>
-                    <p class="post-meta">Posted by&nbsp;<a href="#">Start Bootstrap on August 24, 2018</a></p>
-                </div>
-                <hr>
-                <div class="post-preview"><a href="#">
-                        <h2 class="post-title">Failure is not an option</h2>
-                        <h3 class="post-subtitle">Many say exploration is part of our destiny, but it’s actually our duty to future generations.</h3>
-                    </a>
-                    <p class="post-meta">Posted by&nbsp;<a href="#">Start Bootstrap on July 8, 2018</a></p>
-                </div>
-                <hr>
-                <div class="clearfix"><button class="btn btn-primary float-end" type="button">Older Posts&nbsp;⇒</button></div>
             </div>
         </div>
     </div>
-    <footer>
+    <footer style="margin-top: 20rem;">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto">
@@ -79,12 +55,14 @@
                         <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></li>
                         <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></li>
                     </ul>
-                    <p class="text-muted copyright">Copyright&nbsp;©&nbsp;Brand 2023</p>
+                    <p class="text-muted copyright">Copyright&nbsp;©&nbsp;Media.Lit 2023</p>
                 </div>
             </div>
         </div>
     </footer>
+    <div style="position: absolute;width: 100vw;height: auto;top: 0;left: 0;"><img src="assets/img/7.png" style="position: absolute;top: 64vh;opacity: 0.25;filter: blur(2px);right: 40vw;transform: rotate(-13deg);"><img src="assets/img/5.png" style="position: absolute;top: -44rem;opacity: 0.25;filter: blur(2px);left: 40vw;transform: rotate(5deg);"></div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/clean-blog.js"></script>
 </body>
 
