@@ -2,12 +2,12 @@
   object-fit: cover;
 }
 
-.card {
+.card-h {
   opacity: 0.9;
   cursor: pointer;
 }
 
-.card:hover {
+.card-h:hover {
   opacity: 1;
   transform: scale(1.05);
 }
