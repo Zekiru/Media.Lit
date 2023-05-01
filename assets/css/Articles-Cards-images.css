@@ -12,3 +12,11 @@
   transform: scale(1.05);
 }
 
+a {
+  color: rgb(23,64,105);
+}
+
+.card {
+  color: #354a4f;
+}
+
