@@ -8,30 +8,33 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/Sprite%20Graffiti%20Shadow.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Articles-Cards-images.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
-<body>
+<body style="background: var(--bs-indigo);color: rgb(227,168,17);height: 1776.19px;">
     <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="z-index: 100;width: 100vw;">
         <div class="container"><a class="navbar-brand" href="index.html">Media.Lit</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="softwaredev.html">Software Development</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Software Development</a></li>
                     <li class="nav-item"><a class="nav-link" href="games.html">Games</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background-image: url('assets/img/contact-bg.jpg');">
+    <header class="masthead" style="background: url(&quot;assets/img/7.png&quot;);">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto position-relative">
-                    <div class="site-heading">
-                        <h1>Contact Me</h1><span class="subheading">Have questions? I have answers.</span>
+                    <div class="site-heading" style="margin: -105px;">
+                        <h1 style="font-family: 'Sprite Graffiti Shadow';font-size: 68px;">Discover<br>Software Development</h1>
+                        <p style="color: var(--bs-white);">Join us and explore some interesting topics andfields in Software Development.</p><span class="subheading" style="color: (--bs-white);"></span>
                     </div>
                 </div>
             </div>
@@ -39,24 +42,161 @@
     </header>
     <div class="container">
         <div class="row">
-            <div class="col-md-10 col-lg-8 mx-auto">
-                <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+            <div class="col-md-10 col-lg-8 col-xxl-10 mx-auto" style="height: 408px;">
+                <p style="color: var(--bs-white);"></p>
+                <div class="card shadow border-start-primary py-2" style="background: #46356f;">
+                    <div class="card-body" style="height: 160px;">
+                        <div class="row align-items-center no-gutters">
+                            <div class="col me-2">
+                                <div class="text-uppercase text-primary fw-bold text-xs mb-1"><span style="color: rgb(255,255,255);">WHAT IS SOFTWARE?</span></div>
+                                <div class="text-dark fw-bold h5 mb-0" style="height: 70px;">
+                                    <p style="color: var(--bs-white);font-style: italic;text-align: left;margin: 10px 0px;">“A set of instructions that a computer follows. It is independent of hardware and makes computers programmable.”</p><span style="color: rgb(255,255,255);"><br><br></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="height: -27px;"></div>
+                <div style="height: 48px;">
+                    <p></p>
+                    <div class="card shadow border-start-primary py-2" style="background: #46356f;">
+                        <div class="card-body" style="height: 160px;">
+                            <div class="row align-items-center no-gutters">
+                                <div class="col me-2">
+                                    <div class="text-uppercase text-primary fw-bold text-xs mb-1"><span style="color: rgb(255,255,255);">WHAT IS SOFTWARE Development?</span></div>
+                                    <div class="text-dark fw-bold h5 mb-0" style="height: 70px;">
+                                        <p style="color: var(--bs-white);font-style: italic;text-align: left;margin: 10px 0px;">"A set of computer science activities dedicated to the process of creating, designing, deploying, and supporting software."</p><span style="color: rgb(255,255,255);"><br><br></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <form id="contactForm" name="sentMessage">
-                    <div class="control-group">
-                        <div class="form-floating controls mb-3"><input class="form-control" type="text" id="name" required="" placeholder="Name"><label class="form-label" for="name">Name</label><small class="form-text text-danger help-block"></small></div>
-                    </div>
-                    <div class="control-group">
-                        <div class="form-floating controls mb-3"><input class="form-control" type="email" id="email" required="" placeholder="Email Address"><label class="form-label">Email Address</label><small class="form-text text-danger help-block"></small></div>
-                    </div>
-                    <div class="control-group">
-                        <div class="form-floating controls mb-3"><input class="form-control" type="tel" id="phone" required="" placeholder="Phone Number"><label class="form-label">Phone Number</label><small class="form-text text-danger help-block"></small></div>
-                    </div>
-                    <div class="control-group">
-                        <div class="form-floating controls mb-3"><textarea class="form-control" id="message" data-validation-required-message="Please enter a message." required="" placeholder="Message" style="height: 150px;"></textarea><label class="form-label">Message</label><small class="form-text text-danger help-block"></small></div>
-                    </div>
                     <div id="success"></div>
-                    <div class="mb-3"><button class="btn btn-primary" id="sendMessageButton" type="submit">Send</button></div>
                 </form>
+            </div>
+            <div class="col-md-10 col-lg-8 col-xxl-10 mx-auto" style="height: 319px;">
+                <p style="color: var(--bs-white);"></p>
+                <div class="card shadow border-start-primary py-2" style="background: #46356f;height: 274px;">
+                    <div class="card-body" style="height: 160px;">
+                        <div class="row align-items-center no-gutters">
+                            <div class="col me-2">
+                                <div class="text-uppercase text-primary fw-bold text-xs mb-1"><span style="color: rgb(255,255,255);">Types of Software Development</span></div>
+                                <div class="text-dark fw-bold h5 mb-0" style="height: 70px;">
+                                    <p style="color: var(--bs-white);font-style: italic;text-align: left;margin: 10px 0px;">Here are a few types, or specializations so to speak, in Software Development:<br>- Application Development<br>- API Development &amp; Cloud Computing<br>- Data Science<br>- Security Development<br>- Game Development</p><span style="color: rgb(255,255,255);"><br><br></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="height: -27px;"></div>
+                <div style="height: 48px;">
+                    <p></p>
+                </div>
+                <form id="contactForm-1" name="sentMessage">
+                    <div id="success-1"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card shadow border-start-primary py-2" style="background: #46356f;height: 390px;margin: 48px;width: 463px;">
+                    <div class="card-body" style="height: 160px;">
+                        <div class="row align-items-center no-gutters">
+                            <div class="col me-2">
+                                <div class="text-uppercase text-primary fw-bold text-xs mb-1" style="text-align: center;"><span style="color: rgb(255,255,255);text-align: center;">API Development</span></div>
+                                <div class="text-dark fw-bold h5 mb-0" style="height: 70px;">
+                                    <p style="color: var(--bs-white);font-style: italic;text-align: left;margin: 10px 0px;">Application Programming Interface, or API in short, acts like the channel for which two or more separate programs are able to communicate with. <br><br>APIs can also be thought of as waiters bringing, translators conveying, or currents controlling the flow of information between larger entities.</p><span style="color: rgb(255,255,255);"><br><br></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow border-start-primary py-2" style="background: #46356f;height: 298px;width: 1273px;">
+                    <div class="card-body" style="height: 160px;">
+                        <div class="row align-items-center no-gutters">
+                            <div class="col me-2">
+                                <div class="text-uppercase text-primary fw-bold text-xs mb-1"><span style="color: rgb(255,255,255);">API Development &amp; Cloud Computing</span></div>
+                                <div class="text-dark fw-bold h5 mb-0" style="height: 70px;">
+                                    <p style="color: var(--bs-white);font-style: italic;text-align: left;margin: 10px 0px;">Both are different topics, but they are pretty similar in nature, as both are used to communicate, send and receive data from external sources. The major difference between them is the fact that APIs will process requests and return data accordingly, while the Cloud is mostly used to extend or implement infrastructures on the cloud itself.<br><br>Take an E-Commerce platform for example;, the whole system is hosted using the cloud, as the applications can be found are running online. But to process orders, users of the application have to send requests to the system to transact. T, this is where APIs come in to process those requests.</p><span style="color: rgb(255,255,255);"><br><br></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow border-start-primary py-2" style="background: #46356f;height: 392px;margin: 48px;width: 463px;">
+                    <div class="card-body" style="height: 160px;">
+                        <div class="row align-items-center no-gutters">
+                            <div class="col me-2">
+                                <div class="text-uppercase text-primary fw-bold text-xs mb-1" style="text-align: center;"><span style="color: rgb(255,255,255);text-align: center;">Cloud computing</span></div>
+                                <div class="text-dark fw-bold h5 mb-0" style="height: 70px;">
+                                    <p style="color: var(--bs-white);font-style: italic;text-align: left;margin: 10px 0px;">Cloud Computing Development refers to the development of software packages that are centered around the flow of information and data via the internet, to be sent, stored, and reused later. <br><br>This is generally the umbrella term for other branches of software development such as database management, servers, and networks.</p><span style="color: rgb(255,255,255);"><br><br></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow border-start-primary py-2" style="background: #46356f;height: 576px;margin: 48px;width: 463px;text-align: center;">
+                    <div class="card-body" style="height: 160px;">
+                        <div class="row align-items-center no-gutters">
+                            <div class="col me-2">
+                                <div class="text-uppercase text-primary fw-bold text-xs mb-1"><span style="color: rgb(255,255,255);">APPLICATION DEVELOPMENT</span></div>
+                                <div class="text-dark fw-bold h5 mb-0" style="height: 70px;">
+                                    <p style="color: var(--bs-white);font-style: italic;text-align: left;margin: 10px 0px;"><strong><em>One of the most common pieces of software, and is&nbsp;probably what most people think of when they think of software development: Application Development!</em></strong><br><br><strong><em>As the name implies, applications are meant to be utilized with a target user audience in mind, whether it be for the public masses or for a private client for personal use.</em></strong><br><br><strong><em>There are a variety of platforms for Application Development, may it be a desktop, web, or even mobile applications!</em></strong><br><br></p><span style="color: rgb(255,255,255);"><br><br></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow border-start-primary py-2" style="background: #46356f;height: 576px;margin: 48px;width: 463px;text-align: center;">
+                    <div class="card-body" style="height: 160px;">
+                        <div class="row align-items-center no-gutters">
+                            <div class="col me-2">
+                                <div class="text-uppercase text-primary fw-bold text-xs mb-1"><span style="color: rgb(255,255,255);">APPLICATION DEVELOPMENT</span></div>
+                                <div class="text-dark fw-bold h5 mb-0" style="height: 70px;">
+                                    <p style="color: var(--bs-white);font-style: italic;text-align: left;margin: 10px 0px;"><strong><em>One of the most common pieces of software, and is&nbsp;probably what most people think of when they think of software development: Application Development!</em></strong><br><br><strong><em>As the name implies, applications are meant to be utilized with a target user audience in mind, whether it be for the public masses or for a private client for personal use.</em></strong><br><br><strong><em>There are a variety of platforms for Application Development, may it be a desktop, web, or even mobile applications!</em></strong><br><br></p><span style="color: rgb(255,255,255);"><br><br></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow border-start-primary py-2" style="background: #46356f;height: 411px;margin: 48px;width: 463px;text-align: center;">
+                    <div class="card-body" style="height: 127px;">
+                        <div class="row align-items-center no-gutters">
+                            <div class="col me-2">
+                                <div class="text-uppercase text-primary fw-bold text-xs mb-1"><span style="color: rgb(255,255,255);">Security Development</span></div>
+                                <div class="text-dark fw-bold h5 mb-0" style="height: 70px;">
+                                    <p style="color: var(--bs-white);font-style: italic;text-align: left;margin: 10px 0px;">Security Software Development is the study and implementation of protection of digital information and data. <br><br>From passwords and viruses, to hacking and encryption, this branch of software development helps determine what should and what shouldn't be in the spotlight!</p><span style="color: rgb(255,255,255);"><br><br></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow border-start-primary py-2" style="background: #46356f;height: 412px;margin: 48px;width: 463px;text-align: center;">
+                    <div class="card-body" style="height: 160px;">
+                        <div class="row align-items-center no-gutters">
+                            <div class="col me-2">
+                                <div class="text-uppercase text-primary fw-bold text-xs mb-1"><span style="color: rgb(255,255,255);">Data Science</span></div>
+                                <div class="text-dark fw-bold h5 mb-0" style="height: 70px;">
+                                    <p style="color: var(--bs-white);font-style: italic;text-align: left;margin: 10px 0px;">Most likely one of the more exciting specializations to take when considering software development, Game Development has gained a lot of attention over the years. <br><br>Turning what was commonly seen as a cut-and-dry logic-based profession into a creative medium to create art and tell stories. Why, we've even used this website as a great example of that!</p><span style="color: rgb(255,255,255);"><br><br></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
